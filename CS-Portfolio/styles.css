@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('BackgroundImage.jpg');
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F8F9F3;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #323846;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio-content {
+    max-width: 800px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    margin: 20px;
+    text-align: center;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: #032539;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #001a23;
+}
+
+.person-info {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.person-info img {
+    width: 200px;
+    height: 210px;
+    border-radius: 10%;
+    margin-right: 20px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-link img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.home {
+    max-width: 600px;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 90px;
+}
+
+h3 {
+	font-weight: normal;
+}
